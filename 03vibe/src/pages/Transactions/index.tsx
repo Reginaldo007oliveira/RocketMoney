@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Header } from "../../components/Header";
-import { SearchForm } from "../../components/SearchForm";
+import { SearchForm } from "./components/SearchForm";
 import { Summary } from "../../components/Summary";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
